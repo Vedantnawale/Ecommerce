@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(230, 222, 222);
+}
+.logo{
+    margin-bottom: 38%;
+    margin-right: 80%;
+}
+.logo img{
+  border: 1px dashed black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.card{
+    position: fixed;
+    width: 350px;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(134, 134, 134),-2px -2px 2px white;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgb(222, 222, 222);
+    /* background-image: url(white.gif); */
+}
+.card h2{
+    text-align: center;
+}
+.cart .sbmsg{
+    color: rgb(147, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 5px;
+   }
+.user-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 18px;
+}
+.user-info input{
+    color: rgb(105, 22, 221);
+    font-weight: bold;
+}
+
+.user-info input:hover{
+    box-shadow: 4px 4px 4px rgb(134, 134, 134),-2px -2px 2px white;
+}
+
+.user-info .user-padding{
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 10px 8px;
+}
+.user-info .btn-1{
+    width: 100px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px 8px;
+    background-color: rgb(146, 86, 230);
+    color: white;
+    margin: auto;
+    
+}
+.user-info .btn-1:hover{
+    background-color:rgb(105, 22, 221) ;
+    font-weight: bold;
+}

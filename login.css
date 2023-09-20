@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(230, 222, 222);
+    
+}
+.card{
+    position: fixed;
+    width: 350px;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(134, 134, 134),-2px -2px 2px white;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgb(222, 222, 222);
+    /* background-image: url(giphy.gif); */
+}
+.card h2{
+    text-align: center;
+}
+.cart .sbmsg{
+    color: rgb(147, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 5px;
+   }
+.logo{
+    margin-bottom: 38%;
+    margin-right: 80%;
+}
+.logo img{
+  border: 1px dashed black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 10px;
+}
+.user-info input{
+    color: rgb(105, 22, 221);
+    font-weight: bold;  
+}
+.user-info input:hover{
+    box-shadow: 4px 4px 4px rgb(134, 134, 134),-2px -2px 2px white;
+}
+.user-info .user-padding{
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 10px 8px;
+}
+.user-info .btn-1{
+    width: 100px;
+    padding: 6px;
+    border: none;
+    border-radius: 10px 8px;
+    background-color: rgb(146, 86, 230);
+    color: white;
+}
+.user-info .btn-1:hover{
+    background-color:rgb(105, 22, 221) ;
+    font-weight: bold;
+}
+.mid-part p{
+text-align: center;
+margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+.mid-part .social-media {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.mid-part .social-media a {
+  padding: 5px;
+}
+.fb-btn {
+    background-color: rgb(74, 74, 181);
+    border: blue;
+    color: white;
+}
+.fb-btn:hover{
+    box-shadow:2px 2px 2px rgb(134, 134, 134),-2px -2px 2px blue ;
+}
+.google-btn{
+    background-color: white;
+    color: black;
+}
+.google-btn:hover{
+    box-shadow: 2px 2px 2px rgb(134, 134, 134),-2px -2px 2px white;
+}
+.bottom-part{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    align-items: center;
+}
+.btn:hover{
+    color: rgb(105, 22, 221);
+    font-weight: bold;
+}
+.forgot-pwd a{
+    color: red;
+}
+.forgot-pwd a:hover{
+    color: darkred;
+}
